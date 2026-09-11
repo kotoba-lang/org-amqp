@@ -86,7 +86,7 @@ Returned, never thrown. `:reason` is a keyword naming the rule —
 
 ```sh
 clojure -M:test                                                        # JVM
-nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs   # ClojureScript
+nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk   # ClojureScript
 ```
 
 **No published byte-level test vectors exist for this codec.** OASIS's
