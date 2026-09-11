@@ -72,7 +72,7 @@
   ClojureScript build sent `[0 0 0 0 …]` instead of `AMQP` as its
   connection preamble and accepted any four-byte prefix as a valid one —
   found only because this codec's own `verify-cljs.cljs` run (not the JVM
-  `clojure -M:test` run, which never exercises the ClojureScript reader's
+  `kbb -M:test` run, which never exercises the ClojureScript reader's
   char semantics at all) failed on it."
   [65 77 81 80])
 
